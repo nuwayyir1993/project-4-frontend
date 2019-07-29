@@ -37,11 +37,12 @@ class ChangePassword extends Component {
     const { oldPassword, newPassword } = this.state
 
     return (
-      <form className='auth-form' onSubmit={this.onChangePassword}>
+      <form className='feedback' onSubmit={this.onChangePassword}>
         <h3>Change Password</h3>
 
         <label htmlFor="oldpw">Old Password</label>
         <input
+        className='form'
           required
           name="oldPassword"
           value={oldPassword}
@@ -51,6 +52,7 @@ class ChangePassword extends Component {
         />
         <label htmlFor="newPassword">New Password</label>
         <input
+        className='form'
           required
           name="newPassword"
           value={newPassword}
@@ -58,7 +60,10 @@ class ChangePassword extends Component {
           placeholder="New Password"
           onChange={this.handleChange}
         />
-        <button type="submit">Change Password</button>
+        <center>
+        <button  className='btnn' type="submit">Change Password</button>
+        </center>
+      
       </form>
     )
   }

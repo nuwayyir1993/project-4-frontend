@@ -40,11 +40,13 @@ class SignUp extends Component {
     const { email, password, passwordConfirmation } = this.state
 
     return (
-      <form className='auth-form' onSubmit={this.onSignUp}>
-        <h3>Sign Up</h3>
+      <div className='feedback'>
+      <form  onSubmit={this.onSignUp}>
+        <h3 className='title'>Sign Up</h3>
 
         <label htmlFor="email">Email</label>
         <input
+        className='form'
           required
           name="email"
           value={email}
@@ -54,6 +56,7 @@ class SignUp extends Component {
         />
         <label htmlFor="password">Password</label>
         <input
+        className='form'
           required
           name="password"
           value={password}
@@ -63,6 +66,7 @@ class SignUp extends Component {
         />
         <label htmlFor="passwordConfirmation">Confirm Password</label>
         <input
+        className='form'
           required
           name="passwordConfirmation"
           value={passwordConfirmation}
@@ -70,8 +74,11 @@ class SignUp extends Component {
           placeholder="Confirm Password"
           onChange={this.handleChange}
         />
-        <button type="submit">Sign Up</button>
+       <center>
+       <button type="submit" class='btnn'>Sign Up</button>
+       </center>
       </form>
+      </div>
     )
   }
 }

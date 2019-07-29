@@ -5,7 +5,7 @@ import { signIn } from '../api'
 import messages from '../messages'
 
 class SignIn extends Component {
-  constructor () {
+  constructor() {
     super()
 
     this.state = {
@@ -34,14 +34,15 @@ class SignIn extends Component {
       })
   }
 
-  render () {
+  render() {
     const { email, password } = this.state
 
     return (
-      <form className='auth-form' onSubmit={this.onSignIn}>
-        <h3>Sign In</h3>
+      <form className='feedback' onSubmit={this.onSignIn}>
+        <h3 className="sign-in" >Sign In</h3>
         <label htmlFor="email">Email</label>
         <input
+          className='form'
           required
           type="email"
           name="email"
@@ -51,6 +52,7 @@ class SignIn extends Component {
         />
         <label htmlFor="password">Password</label>
         <input
+          className='form'
           required
           name="password"
           value={password}
@@ -58,7 +60,9 @@ class SignIn extends Component {
           placeholder="Password"
           onChange={this.handleChange}
         />
-        <button type="submit">Sign In</button>
+        <center>
+          <button className='btnn' type="submit">Sign In</button>
+        </center>
       </form>
     )
   }

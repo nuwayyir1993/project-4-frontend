@@ -1,0 +1,93 @@
+.body{
+    text-align: left;
+    padding-top: 5%;    
+}
+
+.loading{
+    padding-top: 5%;
+}
+.btn{
+    display:none;
+}
+
+.upload-btn{
+    
+    text-align: center;  
+    width:25%;
+    background-color: rgb(98, 146, 165);
+    color: white;
+    height: 40px;
+    position: absolute;
+    left: 320px;
+    font-size: 90%;
+     
+}
+.upload-btn:hover{
+        color: #034703;
+        background-color: #96d396;
+}
+
+.card-1{
+    width: 40%;
+    margin-left: 10%;
+    margin-top:19%; 
+    padding: 19px;
+    color:rgb(253, 253, 253);
+    font-size: 20px;
+    /* background-color: rgba(240, 248, 255, 0.55); */
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    box-shadow: 1px 1px gray;
+    position: relative;
+    border-radius: 8px;
+}
+
+.Score{
+    color:  #043244;
+    font-size: 45px;
+    margin-top: 4%;   
+    font-size: 30px; 
+    
+    
+}
+
+.code{
+    font-size: 30px;  
+    color: #c35064d1;        
+}
+
+.analyzedText{
+    margin-top: 6%;  
+    font-size: 45px;
+    color: #c35064d1;        
+}
+/* .upload{
+   color:  #043244;
+   font-size: 45px;
+
+} */
+
+/* .score-number{
+color: white
+ } */
+
+.card-1 .emo{
+    position: absolute;
+    float: right;
+    right: 30px;
+    top: 80px;
+    
+}
+
+.card-1 .hand{
+    position: absolute;
+    float: left;
+    left: 30px;
+    top: 80px;
+    
+}
+
+
+
+
+

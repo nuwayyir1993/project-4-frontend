@@ -1,0 +1,30 @@
+#hist-container{
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+ 
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    }
+  
+  table, th, td {
+    border: 0px solid white;
+    text-align: center;
+    padding: 10px;
+    
+  }
+
+  th{
+    background-color: #5106428f; 
+  }
+  td{
+    font-size:20px;
+    padding:5px;
+    background-color: rgba(247, 197, 237, 0.54);
+  }
+
+  .noHistory{
+      text-align: center;
+  }

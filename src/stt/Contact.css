@@ -1,0 +1,129 @@
+
+.feedback{
+    width: 40%;
+    margin-left: 30%;
+    margin-top:5%; 
+    padding: 19px;
+    color:rgb(253, 253, 253);
+    font-size: 20px;
+    /* background-color: rgba(240, 248, 255, 0.55); */
+    background-color: rgba(211, 236, 241, 0.2);
+    border: 1px solid rgb(97, 137, 153);
+    border-radius: 8px;
+    
+
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Lusitana', serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Contrail One', cursive;
+    font-family: 'Palanquin', sans-serif;
+ }
+.title{
+    margin-bottom: 5%;
+    text-align: center
+  
+}
+
+.form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.contact{
+    margin-bottom: 90px;
+    text-align: left;
+
+}
+
+
+
+button{
+    background-color: rgb(145, 106, 151);
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    transition: background-color 0.75s;
+}
+.del-btn{
+    background-color:#FF7676
+}
+.del-btn:hover{
+    background-color:red
+}
+/* .upload-btn{
+    background-color:orange
+}
+.upload-btn:hover{
+    background-color:orangered
+} */
+.btnn{
+    
+    text-align: center;  
+    padding: 5px 20px 5px 20px; 
+    background-color: rgb(98, 146, 165);
+    color: white;
+  
+}
+.btnn:hover{
+    color: #034703;
+    background-color: #96d396;
+}
+
+button:hover {
+    background-color: rgb(98, 146, 165);
+}
+
+
+   .footer-links{
+    position: center;  
+    text-align: center;  
+    
+   }
+   .twitter-icon{
+       width: 30px;
+       border-radius: 50%
+   }
+   .githup-icon{
+    width: 30px;    
+    border-radius: 50%;
+    
+   }
+
+.MyName{
+    text-align: center;    
+    margin-top: 2%;
+    color:#B27EBE;
+    padding-top: 130px;  
+    
+    }
+    h3{
+        text-align: center;    
+        margin-top: 2%;   
+    }
+   .footer-name{
+    text-align: center; 
+    color:#B27EBE;
+    
+   }
+
+   .twitter,.githup{
+    color:#B27EBE;
+    padding-left: 15px;
+}
+   .twitter:hover{
+       color:#C558E4
+}
+.githup:hover{
+    color:#C558E4
+}

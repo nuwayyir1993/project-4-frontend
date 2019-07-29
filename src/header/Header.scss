@@ -1,18 +1,28 @@
-$charcoal: #bbb;
+$charcoal: #FDFDFD;
 
 .main-header {
   align-items: center;
-  border-bottom: 1px solid $charcoal;
   display: flex;
   height: 100px;
   padding: 0 20px;
 
   a,
   span {
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0 15px;
+    text-decoration:none;
+    color: white;
+    transition: background-color 1s;
+    padding: 0px 10px 0px 10px;
+  }
+  a:hover{
+    background-color: #9664a1b0;
   }
 }
+
+
+
+
 
 .main-header > nav {
   align-items: center;
@@ -47,4 +57,19 @@ $charcoal: #bbb;
       width: 80%;
     }
   }
+}
+#user-span{
+  background-color: white;
+  border-radius: 3px;
+  color: purple;
+  font-size: 14px;
+}
+
+#header-title{
+  cursor:pointer;
+  transition: transform 0.5s;
+}
+
+#header-title:hover{
+  transform: rotate(360deg)
 }
