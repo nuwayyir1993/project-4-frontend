@@ -1,0 +1,16 @@
+.about{
+    font-family: 'Josefin Slab', serif;
+    font-size: 180%;
+    padding-top: 10%;
+    padding-bottom: 10%;    
+    background-color: rgba(115, 168, 173, 0.6);
+    text-align: left;
+    padding-left: 7%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+}
+
+.appName{
+    color: purple;
+}

@@ -32,7 +32,7 @@ const alwaysOptions = (
 
 const Header = ({ user }) => (
   <header className="main-header">
-    <h1 id='header-title'>Speech to text</h1>
+    <h1 id='header-title'>Silence Emotion</h1>
     <nav>
       { user && <span id='user-span'>Welcome, {user.email}</span>}
       { user ? authenticatedOptions : unauthenticatedOptions }
