@@ -96,7 +96,7 @@ class STTHome extends Component {
             f =   'Loading ...'
         }
         if (resp.analyze.emotion.img != null)
-            emotionUrl = apiUrl + '/emotions/' + resp.analyze.emotion.img
+            emotionUrl = '/emotions/' + resp.analyze.emotion.img
         else
             emotionUrl = ''
         return (
