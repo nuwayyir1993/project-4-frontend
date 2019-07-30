@@ -32,9 +32,9 @@ class Contact extends Component {
 
                 <h3 className="MyName">Nuwayyir<span> Almohammadi</span></h3>
                 <p class="footer-links">
-                    <a className= "twitter" href="https://twitter.com/nonaal_harby">Twitter    </a><img class="twitter-icon" src="public/twitter.png" alt="" />
+                    <a className= "twitter" href="https://twitter.com/nonaal_harby">Twitter    </a><img class="twitter-icon" src="twitter.png" alt="" />
 
-                    <a className= "githup" href="https://github.com/nuwayyir1993">Githup    </a><img class="githup-icon" src="public/githup.png" alt="" />
+                    <a className= "githup" href="https://github.com/nuwayyir1993">Githup    </a><img class="githup-icon" src="githup.png" alt="" />
 
                 </p>
                 <p class="footer-name">Nuwayyir &copy; 2019</p>
