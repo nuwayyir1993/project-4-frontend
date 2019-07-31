@@ -1,5 +1,5 @@
 # Name of your APP
-
+**Silence Emotion**
 
 
 ## Web Application Description 
@@ -36,3 +36,4 @@ $npm start
 
 
 ## Developers
+*Nuwayyir Almohammadi*
