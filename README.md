@@ -33,6 +33,10 @@ $npm run server
 6. user *(Deaf)* can see the percentage of the happiness in the uploaded file 
 7. user *(Deaf)* can see an emoji according to the happines status
 8. user *(Deaf)* can see sign language in case if he/she is not educated
+9. user *(Deaf)* can save the converted audio to the history 
+9. user *(Deaf)* can delete the converted audio to the history 
+10. user *(Deaf)* can delete the the whole history 
+11. 9. user *(Deaf)* can see the contact and the about pages
 
 
 ## Technologies
