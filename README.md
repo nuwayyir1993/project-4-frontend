@@ -33,8 +33,6 @@ $npm run server
 
 
 
-
-
 ## Technologies
 1. Speach to text (Google Api)
 2. Sentiment Analysis (Google Api)
