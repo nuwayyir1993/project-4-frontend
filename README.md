@@ -36,8 +36,8 @@ $npm run server
 
 
 ## Technologies
--Speach to text (Google Api)
--Sentiment Analysis (Google Api)
+*Speach to text (Google Api)
+*Sentiment Analysis (Google Api)
 
 
 ## Developers
