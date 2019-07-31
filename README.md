@@ -25,12 +25,14 @@ $npm run server
 
 ---
 ## User Stories
-
-
-
-
-## Wireframes
-
+1. user can sign up
+2. user can sign in
+3. user can change the password 
+4. user can log out
+5. user *(Deaf)* can upload a voice file to be converted iton text
+6. user *(Deaf)* can see the percentage of the happiness in the uploaded file 
+7. user *(Deaf)* can see an emoji according to the happines status
+8. user *(Deaf)* can see sign language in case if he/she is not educated
 
 
 ## Technologies
